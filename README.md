@@ -4,9 +4,11 @@ In this project, we use a number of SQL queries to answer various simple questio
 
 The dataset we are working with is called "Customer Shopping Trends Dataset" and can be found on can be found on "https://www.kaggle.com/". 
 
-More specifically, it can be found via this address to reach the dataset directly- "https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset". 
+More specifically, it can be found via this address to reach the dataset directly from it's original source- "https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset". 
 
-To run our work, simply open the file "Shopping_Trends" via DB Browser for SQLite. 
+Alternatively, a copy of it is attached here, known as "Shopping_Trends.csv". 
+
+To run our work, simply open the file "Shopping_Trends.db" via DB Browser for SQLite. 
 
 SQL logic used- 
 1. SELECT statements to return information from the table
