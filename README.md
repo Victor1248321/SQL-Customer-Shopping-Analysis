@@ -11,15 +11,16 @@ Alternatively, a copy of it is attached here, known as "Shopping_Trends.csv".
 To run our work, simply open the file "Shopping_Trends.db" via DB Browser for SQLite. 
 
 SQL logic used- 
-1. SELECT statements to return information from the table
+1. SELECT statements to return information from the table, directly by name or using an alias
 2. WHERE clause to filter rows via specified criteria to narrow results down
-3. GROUP BY to group results so they can be aggregated over (via aggregates such as COUNT, SUM, and AVG)
-4. CASE WHEN to adjust/filter results
-5. ORDER BY to order resulting table in a different orientation 
+3. GROUP BY to group results so they can be aggregated over (via aggregates such as COUNT, SUM, AVG)
+4. Using scalar functions to adjust data results (such as ROUND) 
+5. CASE WHEN to adjust/filter results
+6. ORDER BY to order resulting table in a different orientation 
 
 Some questions answered via our queries- 
-1. Revenue total earned and average revenue earned per category
-2. Total revenue earned by state
+1. Revenue earned and average revenue earned per category of product
+2. How much revenue was earned by stores per state
 3. Items and amount of items purchased by female customers during winter season
 4. Amount of times each payment method was used per season
 5. And more
